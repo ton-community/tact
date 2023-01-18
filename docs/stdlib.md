@@ -214,8 +214,8 @@ Converts `data` from Builder or Cell and returns it as Slice.
 
 #### asCell
 ```
-asSlice(data: Builder): Slice
-asSlice(data: Slice): Slice
+asCell(data: Builder): Cell
+asCell(data: Slice): Cell
 ```
 Converts `data` from Builder or Slice and returns it as Cell.
 
